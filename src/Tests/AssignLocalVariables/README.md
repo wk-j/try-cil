@@ -1,16 +1,6 @@
 ## Program.il
 
 ```csharp
-/*
-using System;
-public class Program {
-    public static void Main() {
-        var x = 12.34;
-        var s = "Hello";
-        Console.WriteLine(s);
-    }
-}
-*/
 .assembly extern mscorlib {
   .ver 0:0:0:0
 }
@@ -41,4 +31,15 @@ public class Program {
         ret
     }
 }
+
+/*
+using System;
+public class Program {
+    public static void Main() {
+        var x = 12.34;
+        var s = "Hello";
+        Console.WriteLine(s);
+    }
+}
+*/
 ```

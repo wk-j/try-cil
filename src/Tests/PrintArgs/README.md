@@ -1,19 +1,6 @@
 ## Program.il
 
 ```csharp
-/*
-using System;
-public class Program {
-    public static void Main() {
-        Go(new [] { "Hello, World!" });
-    }
-    
-    public static void Go(string[] args) {
-        Console.WriteLine(args[0]);
-    }
-}
-*/
-
 .assembly extern mscorlib {
   .ver 0:0:0:0
 }
@@ -49,4 +36,18 @@ public class Program {
         ret
     }
 } 
+
+
+/*
+using System;
+public class Program {
+    public static void Main() {
+        Go(new [] { "Hello, World!" });
+    }
+    
+    public static void Go(string[] args) {
+        Console.WriteLine(args[0]);
+    }
+}
+*/
 ```
