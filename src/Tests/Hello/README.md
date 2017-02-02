@@ -1,6 +1,6 @@
 ## hello.il
 
-```il
+```csharp
 .assembly extern mscorlib {
   .ver 0:0:0:0
 }
