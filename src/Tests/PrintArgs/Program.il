@@ -27,7 +27,6 @@ public class Program {
     .method public static default void Main()  cil managed {
         .entrypoint
         .maxstack 8
-        nop
         ldc.i4.1
         newarr [mscorlib]System.String
         dup
@@ -35,18 +34,15 @@ public class Program {
         ldstr "Hello, World!"
         stelem.ref
         call void Program::Go(string[])
-        nop
         ret
     } 
 
     .method public hidebysig static void Go(string[] args) cil managed {
         .maxstack 8
-        nop
         ldarg.0
         ldc.i4.0
         ldelem.ref
         call void [mscorlib]System.Console::WriteLine(string)
-        nop
         ret
     }
 } 
