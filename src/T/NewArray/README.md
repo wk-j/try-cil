@@ -1,14 +1,8 @@
 ## :coffee: Program.il
 
 ```csharp
-.assembly extern mscorlib {
-  .ver 0:0:0:0
-}
-
-.assembly 'hello' {
-  .hash algorithm 0x00008004
-  .ver  0:0:0:0
-}
+.assembly extern mscorlib { }
+.assembly 'hello' { }
 
 .class private auto ansi beforefieldinit Program extends [mscorlib]System.Object {
     .method public hidebysig  specialname  rtspecialname instance default void .ctor()  cil managed {
@@ -19,19 +13,16 @@
     } 
     .method public static default void Main()  cil managed {
         .entrypoint
-        .maxstack 8
-        ldstr "Hello World!"
-        call void class [corlib]System.Console::WriteLine(string)
+        ldc.i4.1
+        newarr [mscorlib]System.Int32
+        dup
+        ldc.i4.0
+        ldc.i4.1
+        stelem.i4
+        ldc.i4.0
+        ldelem.i4
+        call void [mscorlib]System.Console::WriteLine(int32)
         ret
     } 
 } 
-
-/*
-using System;
-class Program{
-    public static void Main(string[] args) {
-        Console.WriteLine("Hello World!");
-    }
-}
-*/
 ```
