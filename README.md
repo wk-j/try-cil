@@ -1,7 +1,7 @@
 ## Try Common Intermediate Language
 
-- [Tests/AssignLocalVariables](src/Tests/AssignLocalVariables)
-- [Tests/GreaterThan](src/Tests/GreaterThan)
-- [Tests/Hello](src/Tests/Hello)
-- [Tests/PrintArgs](src/Tests/PrintArgs)
-- [Tests/TypeIntializer](src/Tests/TypeIntializer)
+- [T/AssignLocalVariables](src/T/AssignLocalVariables)
+- [T/GreaterThan](src/T/GreaterThan)
+- [T/Hello](src/T/Hello)
+- [T/PrintArgs](src/T/PrintArgs)
+- [T/TypeIntializer](src/T/TypeIntializer)
